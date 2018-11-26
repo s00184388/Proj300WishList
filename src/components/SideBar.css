@@ -1,0 +1,32 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #7386d5;
+  color: #fff;
+}
+
+#sidebar {
+  /* don't forget to add all the previously mentioned styles here too */
+  background: #1a1a1a;
+  color: #fff;
+  transition: all 0.3s;
+  margin-top: 64px;
+}
+
+#sidebar ul li {
+  padding: 10px;
+  font-size: 0.7;
+  display: block;
+  margin-left: 20px;
+}
